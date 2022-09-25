@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+}
+html,body,.items{
+  width:80%;
+  height:100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.items{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.information{
+background-color: #474A51;
+position: fixed;
+left: 82.5%;
+right: 0.5%;
+bottom: 0;
+z-index: 0;
+}
+.bg{
+background-color: #E6E6FA;
+}
+.face{
+    width: 400px;
+    height: 400px;
+}
